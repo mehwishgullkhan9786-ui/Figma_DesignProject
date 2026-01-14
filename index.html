@@ -4,7 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
     <title>Document</title>
   </head>
 
@@ -18,16 +28,18 @@
 
           <div class="Features">
             <ul>
-              <li>Features</li>
-              <li>How It Works</li>
-              <li>Get Started</li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">How It Works</a></li>
+              <li><a href="#">Get Started</a></li>
             </ul>
           </div>
 
           <div class="buttons">
-            <div class="signimg">
-              <img src="assests/flag.png" alt="" />
-            </div>
+            <label class="switch">
+              <input type="checkbox" checked />
+              <span class="slider"></span>
+            </label>
+
             <button>Sign In</button>
           </div>
         </nav>
@@ -41,7 +53,7 @@
         </p>
         <div class="main_buttons">
           <button class="button1">START INNOVATING</button>
-          <button class="button2">About Us</button>
+          <button class="button2"> ABOUT US</button>
         </div>
       </div>
     </section>
@@ -144,7 +156,7 @@
 
     <footer>
       <div class="footer_main">
-        <div class="footer_col">
+        <div class="footer_col ">
           <h4>IMPORTANT LINKS</h4>
           <ul>
             <li><a href="#">ABOUT THE PLATFORM</a></li>
@@ -181,12 +193,12 @@
       <div class="footer_bottom">
         <div class="reach_tools">
           <span>Reach Tools</span>
-          <span class="eye_icon">👁️</span>
+          <span class="eye_icon"><i class="fa-solid fa-eye " style="color: green;"></i></span>
         </div>
-        <p>
+        <p style="font-family: poppins; color: black; font-size: 14px;">
           Developed According To Saudi Government Digital Authority Standards
         </p>
-        <p>© 2025 SERA Innovation Platform. All Rights Reserved</p>
+        <p style="font-family: poppins; color: black; font-size: 14px;">© 2025 SERA Innovation Platform. All Rights Reserved</p>
       </div>
     </footer>
   </body>
